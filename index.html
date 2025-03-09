@@ -2,50 +2,42 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Rotar AI</title>
+    <title>Rotar AI | Inicio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #F5F5F5;
-        }
-        .cube {
-            width: 16px;
-            height: 16px;
-            background: linear-gradient(45deg, #000 25%, transparent 25%, transparent 75%, #000 75%, #000),
-                        linear-gradient(45deg, #000 25%, transparent 25%, transparent 75%, #000 75%, #000);
-            background-size: 8px 8px;
-            background-position: 0 0, 4px 4px;
-        }
-        .bg-green-creme {
-            background-color: #d4f4e0;
-        }
-        .bg-green-light {
-            background-color: #BBFADB;
-        }
-    </style>
+
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png">
+
+
 </head>
-<body class="text-gray-900">
-<header class="flex justify-between items-center p-6" style="background-color: #F5F5F5;">
-    <div class="flex items-center space-x-2">
-        <img alt="Rotar AI logo" class="w-10 h-10" height="40" src="https://storage.googleapis.com/a1aa/image/MpqICLhGWKk1Kur-Pr_Mjy1VjlXydP9VmQdnVHV10CY.jpg" width="40"/>
-        <span class="text-xl font-bold">Rotar AI</span>
+
+<body>
+
+
+<header>
+    <div>
+        <img src="img/logo_text.png" width="150px" alt="#" /> 
     </div>
-    <nav class="hidden md:flex space-x-6">
-        <a class="text-gray-600 hover:text-gray-900" href="#">Product</a>
-        <a class="text-gray-600 hover:text-gray-900" href="#">Solutions</a>
-        <a class="text-gray-600 hover:text-gray-900" href="#">Resources</a>
-        <a class="text-gray-600 hover:text-gray-900" href="#">Pricing</a>
+    <nav >
+        <a href="#">Product</a>
+        <a href="#">Solutions</a>
+        <a href="#">Resources</a>
+        <a href="#">Pricing</a>
     </nav>
-    <div class="flex items-center space-x-4">
-        <a class="text-gray-600 hover:text-gray-900" href="#">Login</a>
-        <a class="px-4 py-2 text-black rounded-full hover:bg-green-500" href="#" style="background-color: #00FE81;">
-            Book a demo <i class="fas fa-arrow-right text-black"></i>
+    <div class="logins">
+        <a href="#" class="login">Login</a>
+        <a href="#" class="button">
+            Book a demo
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"/></svg>
         </a>
     </div>
 </header>
+
+
 <main class="p-6">
     <section class="bg-white p-8 rounded-lg shadow-md mb-12">
         <div class="grid md:grid-cols-3 gap-8">
@@ -67,6 +59,8 @@
                     <img alt="Molecule structure" class="w-24 h-24" height="100" src="https://storage.googleapis.com/a1aa/image/NQClbMudDXHENkjnE3d1LDXQplBk1CVsYA7f66qqDh4.jpg" width="100"/>
                 </div>
             </div>
+
+            
             <div class="relative">
                 <img alt="Customer service representative" class="w-[1000px] h-[500px] object-cover rounded-lg" height="200" src="img/young-female-operator-with-headphones.jpg" width="300"/>
                 <button class="absolute bottom-4 right-4 px-4 py-2 text-black rounded-full hover:bg-green-500" style="background-color: #00FE81;">
@@ -74,11 +68,11 @@
                 </button>
                 <div class="absolute top-4 left-4 flex space-x-4">
                     <button class="px-4 py-2 bg-white text-black rounded-full flex items-center">
-                        <div class="cube mr-2"></div>
+                        <div class="fa-light fa-cube"></div>
                         Chatbot
                     </button>
                     <button class="px-4 py-2 bg-white text-black rounded-full flex items-center">
-                        <img alt="ChatGPT logo" class="w-4 h-4 mr-2" src="https://storage.googleapis.com/a1aa/image/76raW8XdNDjmfLvFICo936qntgn2CdKvmY0XqUKbcDI.jpg"/>
+                        <i class="fa-brands fa-unity"></i>
                         Chat GPT 4
                     </button>
                 </div>
@@ -101,6 +95,21 @@
             </div>
         </div>
     </section>
+
+
+    
+    <footer>
+        <div>
+            <img alt="Spotify logo" class="h-10" height="40" src="https://storage.googleapis.com/a1aa/image/WZTpLmWOuaePYtNjTL9Am-9Rx4Km6blELeDAnLXOlvc.jpg" width="100"/>
+            <img alt="Microsoft logo" class="h-10" height="40" src="https://storage.googleapis.com/a1aa/image/tKNrTGTNF4oK_ORUT97UvYhjez2jexi9Go0-c-0p4pg.jpg" width="100"/>
+            <img alt="McAfee logo" class="h-10" height="40" src="https://storage.googleapis.com/a1aa/image/JUrBa6s41FFcI5p4P-Z6o4SnGav7hLGlBv3QOKIe3_U.jpg" width="100"/>
+            <img alt="Google logo" class="h-10" height="40" src="https://storage.googleapis.com/a1aa/image/R9MNE4mALC0AzX1ItaHpmBLM4T_9tnjSlfPDj_-1CzA.jpg" width="100"/>
+            <img alt="FedEx logo" class="h-10" height="40" src="https://storage.googleapis.com/a1aa/image/UA1Nl8qjrlreGQh83-dqrcoXzFkSlSnrNvPKc7E8P4E.jpg" width="100"/>
+        </div>
+    </footer>
+
+
+
     <section class="bg-white p-8 rounded-lg shadow-md">
         <div class="grid md:grid-cols-2 gap-8">
             <div>
@@ -169,15 +178,7 @@
         </div>
     </section>
 </main>
-<footer class="bg-white p-6 shadow-md mt-12">
-    <div class="flex justify-center space-x-8">
-        <img alt="Spotify logo" class="h-10" height="40" src="https://storage.googleapis.com/a1aa/image/WZTpLmWOuaePYtNjTL9Am-9Rx4Km6blELeDAnLXOlvc.jpg" width="100"/>
-        <img alt="Microsoft logo" class="h-10" height="40" src="https://storage.googleapis.com/a1aa/image/tKNrTGTNF4oK_ORUT97UvYhjez2jexi9Go0-c-0p4pg.jpg" width="100"/>
-        <img alt="McAfee logo" class="h-10" height="40" src="https://storage.googleapis.com/a1aa/image/JUrBa6s41FFcI5p4P-Z6o4SnGav7hLGlBv3QOKIe3_U.jpg" width="100"/>
-        <img alt="Google logo" class="h-10" height="40" src="https://storage.googleapis.com/a1aa/image/R9MNE4mALC0AzX1ItaHpmBLM4T_9tnjSlfPDj_-1CzA.jpg" width="100"/>
-        <img alt="FedEx logo" class="h-10" height="40" src="https://storage.googleapis.com/a1aa/image/UA1Nl8qjrlreGQh83-dqrcoXzFkSlSnrNvPKc7E8P4E.jpg" width="100"/>
-    </div>
-</footer>
+
 
 
 

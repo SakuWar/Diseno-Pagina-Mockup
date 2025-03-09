@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    justify-content: space-between; /* Espaciado uniforme: logo izquierda, menú centro, botones derecha */
+    align-items: center; /* Alinea verticalmente */
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 20px; /* Espaciado entre los enlaces */
+}
+
+nav a {
+    color: #484848;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.logins {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espaciado entre "Login" y "Book a demo" */
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #1FAECC;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button svg {
+    width: 16px;
+    height: 16px;
+    fill: white;
+}
