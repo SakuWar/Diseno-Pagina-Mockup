@@ -14,6 +14,7 @@
     <script src="js/slider.js"></script>
     <script src="js/header.js"></script>
     <script src="js/spanish_translation.js"></script>
+    <script src="js/Seccion principal.js"></script>
 
     <link rel="icon" href="img/logo.png">
 
@@ -52,18 +53,23 @@
 <section class="bg-white p-8 rounded-lg shadow-md mb-12">
     <div class="grid md:grid-cols-3 gap-8">
         <div class="md:col-span-2">
-            <h1 class="text-7xl font-bold mb-4 text-black leading-tight">
+            <!-- Título con animación -->
+            <h1 class="text-7xl font-bold mb-4 text-black leading-tight animate-fade-in opacity-0" data-delay="0.3">
                 <span data-en="The Ultimate AI" data-es="La mejor IA"></span> <br>
                 <span class="text-black" data-en="Customer" data-es="para atención"></span>
                 <span class="bg-green-light px-2 rounded-lg" data-en="Service" data-es="al"></span> <br>
                 <span class="bg-green-light px-2 rounded-lg" data-en="Companion" data-es="cliente"></span>
             </h1>
-            <p class="text-gray-600 mb-6 leading-tight">
+
+            <!-- Párrafo con animación -->
+            <p class="text-gray-600 mb-6 leading-tight animate-fade-in opacity-0" data-delay="0.6">
                 <span data-en="Embrace AI chatbot technology in a GPT-4-supported" data-es="Adopta la tecnología de chatbot con IA respaldada por GPT-4 en"></span> <br>
                 <span data-en="communication tool to help your customers, empower your" data-es="una herramienta de comunicación para ayudar a tus clientes,"></span> <br>
                 <span data-en="team, and reduce your workload." data-es="empoderar a tu equipo y reducir tu carga de trabajo."></span>
             </p>
-            <div class="flex items-center space-x-4">
+
+            <!-- Contenedor flex con animación -->
+            <div class="flex items-center space-x-4 animate-fade-in opacity-0" data-delay="0.9">
                 <div class="bg-gray-100 p-4 rounded-lg">
                     <h2 class="text-lg font-semibold" data-en="Guide: The Rotar AI Tutorial Hand Book" data-es="Guía: Manual de Tutoriales de Rotar AI"></h2>
                     <p class="text-gray-600">
@@ -78,24 +84,29 @@
                 <img alt="Molecule structure" 
                      data-en="Molecule structure" 
                      data-es="Estructura molecular" 
-                     class="w-24 h-24" 
+                     class="w-24 h-24 animate-fade-in opacity-0" 
+                     data-delay="1.2"
                      src="https://storage.googleapis.com/a1aa/image/NQClbMudDXHENkjnE3d1LDXQplBk1CVsYA7f66qqDh4.jpg"/>
             </div>
         </div>
 
+        <!-- Columna derecha (imagen y botones) -->
         <div class="relative">
             <img alt="Customer service representative" 
-                 data-en="Customer service representative" 
-                 data-es="Representante de servicio al cliente" 
-                 class="w-[1000px] h-[500px] object-cover rounded-lg" 
+                 class="w-[1000px] h-[500px] object-cover rounded-lg animate-fade-in opacity-0" 
+                 data-delay="0.3"
                  src="img/young-female-operator-with-headphones.jpg"/>
             
-            <button class="absolute bottom-4 right-4 px-4 py-2 text-black rounded-full hover:bg-green-500" style="background-color: #00FE81;">
+            <!-- Botones con animación -->
+            <button class="absolute bottom-4 right-4 px-4 py-2 text-black rounded-full hover:bg-green-500 animate-fade-in opacity-0" 
+                    data-delay="0.6"
+                    style="background-color: #00FE81;">
+                    
                 <span data-en="Watch Tutorial" data-es="Ver tutorial"></span> 
                 <i class="fas fa-play text-black"></i>
             </button>
             
-            <div class="absolute top-4 left-4 flex space-x-4">
+            <div class="absolute top-4 left-4 flex space-x-4 animate-fade-in opacity-0" data-delay="0.9">
                 <button class="px-4 py-2 bg-white text-black rounded-full flex items-center">
                     <span data-en="Chatbot" data-es="Chatbot"></span>
                 </button>
@@ -106,24 +117,30 @@
         </div>
     </div>
     
-    <div class="grid md:grid-cols-2 md:max-w-xl mx-auto gap-8 mt-8 justify-items-end">
-        <div class="bg-green-creme text-black p-4 rounded-lg">
-            <h2 class="text-4xl font-bold">+ 500</h2>
-            <p class="text-sm">
-                <span data-en="Big companies use Rotar AI for" data-es="Grandes empresas usan Rotar AI para"></span> <br>
-                <span data-en="their services" data-es="sus servicios"></span>
-            </p>
-        </div>
-        <div class="bg-black text-white p-4 rounded-lg">
-            <div class="flex items-center space-x-1 mb-2">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-            <h2 class="text-lg font-bold" data-en="AI-driven" data-es="Impulsado por IA"></h2>
-            <h2 class="text-lg font-bold" data-en="customer service" data-es="servicio al cliente"></h2>
+<!-- Contenedores con animación -->
+<div class="flex justify-end space-x-4 mt-8">
+    <!-- Contenedor verde -->
+    <div class="bg-green-100 p-4 rounded-lg flex items-center space-x-4 w-1/6 animate-fade-in opacity-0" data-delay="0.3">
+        <div>
+            <h3 class="text-2xl font-bold">+ 500</h3>
+            <p class="text-gray-600">Big companies use Rotar AI for</p>
+            <p class="text-gray-600">their services</p>
         </div>
     </div>
+
+    <!-- Contenedor negro -->
+    <div class="bg-black text-white p-4 rounded-lg w-1/6 animate-fade-in opacity-0" data-delay="0.6">
+        <div class="flex space-x-1 mb-2">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div>
+            <h3 class="font-semibold">AI-driven</h3>
+            <h3 class="font-semibold">customer service</h3>
+        </div>
+    </div>
+</div>
 </section>
 <!-- Fin Sección principal-->
 
@@ -152,27 +169,34 @@
 
 
 <!-- Sección secundaria-->
+<!-- Sección secundaria-->
 <section class="bg-white p-8 rounded-lg shadow-md">
     <div class="grid md:grid-cols-2 gap-8">
         <div>
-            <h1 class="text-4xl font-bold mb-4">
+            <!-- Título con animación -->
+            <h1 class="text-4xl font-bold mb-4 animate-fade-in opacity-0" data-delay="0.3">
                 <span data-en="Deliver a high-quality" data-es="Ofrece una experiencia de">Deliver a high-quality</span> 
                 <span class="text-green-400" data-en="customer experience" data-es="cliente de alta calidad"></span>
             </h1>
-            <p class="text-gray-600 mb-6" data-en="Embrace AI chatbot technology in a GPT-4-supported communication tool to help your customers, empower your team, and reduce your workload." 
+            
+            <!-- Párrafo con animación -->
+            <p class="text-gray-600 mb-6 animate-fade-in opacity-0" data-delay="0.6" data-en="Embrace AI chatbot technology in a GPT-4-supported communication tool to help your customers, empower your team, and reduce your workload." 
                data-es="Adopta la tecnología de chatbot con IA respaldada por GPT-4 en una herramienta de comunicación para ayudar a tus clientes, empoderar a tu equipo y reducir tu carga de trabajo.">
             </p>
-            <div class="flex items-center space-x-4 mb-6">
+
+            <!-- Imágenes con animación -->
+            <div class="flex items-center space-x-4 mb-6 animate-fade-in opacity-0" data-delay="0.9">
                 <img alt="Integration 1" data-en="Integration 1" data-es="Integración 1" class="w-12 h-12" src="https://storage.googleapis.com/a1aa/image/oURruik3fXWVwwYBk84lrwvlzBrz6joVLBAmGB-drfc.jpg"/>
                 <img alt="Integration 2" data-en="Integration 2" data-es="Integración 2" class="w-12 h-12" src="https://storage.googleapis.com/a1aa/image/AOcYeGXl6s35N8QNLpRAZMq-eBz99OvvPjoovnyux5w.jpg"/>
                 <img alt="Integration 3" data-en="Integration 3" data-es="Integración 3" class="w-12 h-12" src="https://storage.googleapis.com/a1aa/image/4dqfepcVVbFGZwI9iLQ1HRC1wpWSJjLUg8oubqrdXKg.jpg"/>
             </div>
-            <p class="text-gray-600" data-en="Automate your workflow with our integrations. Connect Rotar AI with your customer service, sales, marketing, and recruitment tools using our user-friendly API, webhooks, or Zapier integration." 
+            <p class="text-gray-600 animate-fade-in opacity-0" data-delay="1.2" data-en="Automate your workflow with our integrations. Connect Rotar AI with your customer service, sales, marketing, and recruitment tools using our user-friendly API, webhooks, or Zapier integration." 
                data-es="Automatiza tu flujo de trabajo con nuestras integraciones. Conecta Rotar AI con tus herramientas de servicio al cliente, ventas, marketing y reclutamiento usando nuestra API, webhooks o integración con Zapier.">
             </p>
         </div>
+
         <div class="grid grid-cols-2 gap-4">
-            <div class="bg-gray-100 p-4 rounded-lg">
+            <div class="bg-gray-100 p-4 rounded-lg animate-fade-in opacity-0" data-delay="0.3">
                 <div class="flex items-center space-x-2 mb-2">
                     <img alt="User avatar" data-en="User avatar" data-es="Avatar de usuario" class="w-10 h-10 rounded-full" src="https://storage.googleapis.com/a1aa/image/WFLIP3N66S2NZ7W6fZLbo_v68cL8CvcAkSLqrSbBgjA.jpg"/>
                     <div>
@@ -184,7 +208,7 @@
                    data-es="No te preocupes, todos hemos estado en esa situación. Para restablecer tu contraseña, ve a la página de inicio de sesión y haz clic en '¿Olvidaste tu contraseña?' Luego, ingresa tu correo electrónico y sigue las instrucciones.">
                 </p>
             </div>
-            <div class="bg-gray-100 p-4 rounded-lg">
+            <div class="bg-gray-100 p-4 rounded-lg animate-fade-in opacity-0" data-delay="0.6">
                 <h2 class="text-lg font-semibold" data-en="Always accessible with our live chat." data-es="Siempre accesible con nuestro chat en vivo."></h2>
                 <p class="text-gray-600" data-en="Enhance Communication with Real-Time Live Chat." data-es="Mejora la comunicación con chat en tiempo real."></p>
                 <div class="flex items-center space-x-2 mt-2">
@@ -194,11 +218,11 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-gray-100 p-4 rounded-lg">
+            <div class="bg-gray-100 p-4 rounded-lg animate-fade-in opacity-0" data-delay="0.9">
                 <h2 class="text-lg font-semibold" data-en="Boost conversations 96% with AI" data-es="Aumenta conversaciones 96% con IA"></h2>
                 <p class="text-gray-600" data-en="Our AI-powered chatbots and automation tools are here to help." data-es="Nuestros chatbots con IA y herramientas de automatización están aquí para ayudar."></p>
             </div>
-            <div class="bg-gray-100 p-4 rounded-lg">
+            <div class="bg-gray-100 p-4 rounded-lg animate-fade-in opacity-0" data-delay="1.2">
                 <h2 class="text-lg font-semibold" data-en="Centralize Your Communication" data-es="Centraliza tu comunicación"></h2>
                 <p class="text-gray-600" data-en="Easily respond to chats from all of your channels in one overview." data-es="Responde fácilmente a chats de todos tus canales en una sola vista."></p>
                 <div class="flex items-center space-x-2 mt-2">
@@ -207,7 +231,7 @@
                     <img alt="Rotar AI icon" data-en="Rotar AI icon" data-es="Ícono de Rotar AI" class="w-10 h-10" src="https://storage.googleapis.com/a1aa/image/76raW8XdNDjmfLvFICo936qntgn2CdKvmY0XqUKbcDI.jpg"/>
                 </div>
             </div>
-            <div class="bg-gray-100 p-4 rounded-lg">
+            <div class="bg-gray-100 p-4 rounded-lg animate-fade-in opacity-0" data-delay="1.5">
                 <h2 class="text-lg font-semibold" data-en="Gain valuable insights from your audience" data-es="Obtén información valiosa de tu audiencia"></h2>
                 <p class="text-gray-600" data-en="Statistics provide valuable insights into how customers interact with Rotar AI." data-es="Las estadísticas proporcionan información valiosa sobre cómo interactúan los clientes con Rotar AI."></p>
                 <div class="flex items-center space-x-2 mt-2">
@@ -222,9 +246,11 @@
 </section>
 </main>
 
-<div class="max-w-7xl mx-auto p-6">
-    <div class="flex flex-col md:flex-row items-center justify-between mb-12">
-        <div class="md:w-1/2 mb-8 md:mb-0">
+    <!-- Sección principal con animaciones -->
+    <div class="max-w-7xl mx-auto p-6">
+        <div class="flex flex-col md:flex-row items-center justify-between mb-12">
+            <!-- Columna izquierda -->
+            <div class="md:w-1/2 mb-8 md:mb-0 animate-fade-in opacity-0" data-delay="0.3">
             <p class="text-lg mb-4">
                 <span data-en="Throughout your customer’s entire buying" data-es="Durante todo el proceso de compra de tus clientes"></span><br/>
                 <span data-en="journey, Rotar AI allow you to delight them" data-es="Rotar AI te permite satisfacerlos"></span><br/>
@@ -236,7 +262,7 @@
                 <i class="fas fa-arrow-right ml-2"></i>
             </button>
         </div>
-        <div class="md:w-1/2 text-left">
+        <div class="md:w-1/2 text-left animate-fade-in opacity-0" data-delay="0.6">
             <h1 class="text-4xl md:text-5xl font-bold mb-4">
                 <span class="bg-green-200 px-2" data-en="Redefining Conversations" data-es="Redefiniendo conversaciones"></span><br/>
                 <span class="bg-green-200 px-2" data-en="and Enhancing User" data-es="y mejorando la experiencia"></span><br/>
@@ -246,36 +272,37 @@
             </h1>
         </div>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-        <div class="bg-white p-6 rounded-lg shadow-md">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <div class="bg-white p-6 rounded-lg shadow-md animate-fade-in opacity-0" data-delay="0.3">
             <h2 class="text-xl font-semibold mb-4" data-en="Engage" data-es="Involucrar"></h2>
             <p data-en="Reach out to visitors proactively using personalized chatbot greetings. Turn website visits into sales opportunities." 
                data-es="Contacta a los visitantes proactivamente usando saludos personalizados de chatbot. Convierte visitas web en oportunidades de venta.">
             </p>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow-md">
+        <div class="bg-white p-6 rounded-lg shadow-md animate-fade-in opacity-0" data-delay="0.6">
             <h2 class="text-xl font-semibold mb-4" data-en="Qualify" data-es="Calificar"></h2>
             <p data-en="Generate and qualify prospects automatically. Transfer high-intent leads to your sales reps in real time to shorten the sales cycle." 
                data-es="Genera y califica prospectos automáticamente. Transfiere leads interesados a tu equipo de ventas en tiempo real para acortar el ciclo de ventas.">
             </p>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow-md">
+        <div class="bg-white p-6 rounded-lg shadow-md animate-fade-in opacity-0" data-delay="0.9">
             <h2 class="text-xl font-semibold mb-4" data-en="Nurture" data-es="Nutrir"></h2>
             <p data-en="Lead customers to a sale through recommended purchases and tailored offerings." 
                data-es="Guía a los clientes hacia una venta mediante recomendaciones y ofertas personalizadas.">
             </p>
         </div>
-        <div class="flex justify-center items-center">
+        <div class="flex justify-center items-center animate-fade-in opacity-0" data-delay="1.2">
             <img alt="Chat interface with Rotar Robot" data-en="Chat interface with Rotar Robot" data-es="Interfaz de chat con Rotar Robot" height="300" src="https://storage.googleapis.com/a1aa/image/UsbpDRj1eKFs9456vjhHvSWtvC-bzBIebTUhGOGLqTQ.jpg" width="400"/>
         </div>
     </div>
-    <div class="text-center mb-12">
+    <div class="text-center mb-12 animate-fade-in opacity-0" data-delay="0.3">
         <h2 class="text-4xl font-bold mb-4">
             <span data-en="Use" data-es="Usa"></span>
             <span class="bg-green-200 px-2" data-en="templates" data-es="plantillas"></span>
             <span data-en="to get started your project" data-es="para comenzar tu proyecto"></span>
         </h2>
-        <div class="flex justify-center space-x-2 mb-8">
+        <div class="flex justify-center space-x-2 mb-8 animate-fade-in opacity-0" data-delay="0.6">
             <button class="bg-gray-200 text-gray-700 py-2 px-4 rounded-full" data-en="E-Commerce" data-es="Comercio electrónico"></button>
             <button class="bg-gray-200 text-gray-700 py-2 px-4 rounded-full" data-en="Education" data-es="Educación"></button>
             <button class="bg-gray-200 text-gray-700 py-2 px-4 rounded-full" data-en="Health Care" data-es="Salud"></button>
@@ -284,8 +311,9 @@
             <button class="bg-gray-200 text-gray-700 py-2 px-4 rounded-full" data-en="Tourism" data-es="Turismo"></button>
         </div>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="bg-white p-6 rounded-lg shadow-md">
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-md animate-fade-in opacity-0" data-delay="0.3">
             <img alt="Chatbot for Marketing" data-en="Chatbot for Marketing" data-es="Chatbot para Marketing" height="200" src="https://storage.googleapis.com/a1aa/image/jYe1S4_5gaHcuwGlt360q_FGFYkLvW3VdaUgjFK1J28.jpg" width="300"/>
             <h3 class="text-xl font-semibold mt-4" data-en="Chatbot for Marketing" data-es="Chatbot para Marketing"></h3>
             <p class="mb-4" data-en="Provide recommendations and process transactions in a chat." data-es="Proporciona recomendaciones y procesa transacciones en un chat."></p>
@@ -294,7 +322,7 @@
                 <i class="fas fa-arrow-right ml-2"></i>
             </button>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow-md">
+        <div class="bg-white p-6 rounded-lg shadow-md animate-fade-in opacity-0" data-delay="0.6">
             <img alt="Chatbot for HR" data-en="Chatbot for HR" data-es="Chatbot para RRHH" height="200" src="https://storage.googleapis.com/a1aa/image/MumCn1KS40yR1tZDP08jY6hFI8BUSAudYKjPGnV9HlA.jpg" width="300"/>
             <h3 class="text-xl font-semibold mt-4" data-en="Chatbot for HR" data-es="Chatbot para RRHH"></h3>
             <p class="mb-4" data-en="Find talent and interact with candidates in an innovative way." data-es="Encuentra talento e interactúa con candidatos de forma innovadora."></p>
@@ -303,7 +331,7 @@
                 <i class="fas fa-arrow-right ml-2"></i>
             </button>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow-md">
+        <div class="bg-white p-6 rounded-lg shadow-md animate-fade-in opacity-0" data-delay="0.9">
             <img alt="Chatbot for Marketing" data-en="Chatbot for Marketing" data-es="Chatbot para Marketing" height="200" src="https://storage.googleapis.com/a1aa/image/jYe1S4_5gaHcuwGlt360q_FGFYkLvW3VdaUgjFK1J28.jpg" width="300"/>
             <h3 class="text-xl font-semibold mt-4" data-en="Optimise your marketing strategy" data-es="Optimiza tu estrategia de marketing"></h3>
             <p class="mb-4" data-en="and give you more customers." data-es="y consigue más clientes."></p>
