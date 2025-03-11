@@ -11,3 +11,7 @@ Descargue el repositorio o clónelo usando:
 
 - git init
 - git clone https://github.com/SakuWar/Diseno-Pagina-Mockup.git
+
+## Visualizacion
+Si deseas ver la pagina sin tener que descargarlo entra a este link
+- https://sakuwar.github.io/Diseno-Pagina-Mockup/
