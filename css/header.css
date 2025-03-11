@@ -30,16 +30,17 @@ nav a {
 .button {
     display: flex;
     align-items: center;
-    gap: 5px;
-    background-color: #1FAECC;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
+    background-color: #00ff66;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
     text-decoration: none;
+    font-size: 16px;
 }
 
 .button svg {
+    margin-left: 8px;
     width: 16px;
     height: 16px;
-    fill: white;
 }
